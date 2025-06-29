@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homestead</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-600">Homestead</h1>
+      <div class="space-x-4">
+        <a href="#home" class="text-gray-700 hover:text-blue-600">Home</a>
+        <a href="#listings" class="text-gray-700 hover:text-blue-600">Listings</a>
+        <a href="#account" class="text-gray-700 hover:text-blue-600">Account</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="text-center py-20 bg-blue-50">
+    <h2 class="text-4xl font-bold mb-4">Find Your Next Rental Home</h2>
+    <p class="text-gray-600 text-lg">Explore and list properties from around the world</p>
+  </section>
+
+  <!-- Listings Section -->
+  <section id="listings" class="max-w-7xl mx-auto px-4 py-10">
+    <h3 class="text-2xl font-semibold mb-6">Featured Listings</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="https://via.placeholder.com/400x200" alt="House" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="font-bold text-lg">2 Bedroom Apartment</h4>
+          <p class="text-gray-600 text-sm">New York, USA</p>
+          <p class="mt-2 text-blue-600 font-semibold">$1200/month</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="https://via.placeholder.com/400x200" alt="House" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="font-bold text-lg">Modern Loft</h4>
+          <p class="text-gray-600 text-sm">Berlin, Germany</p>
+          <p class="mt-2 text-blue-600 font-semibold">€900/month</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="https://via.placeholder.com/400x200" alt="House" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="font-bold text-lg">Beachside Bungalow</h4>
+          <p class="text-gray-600 text-sm">Mombasa, Kenya</p>
+          <p class="mt-2 text-blue-600 font-semibold">KSh 45,000/month</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Account Info -->
+  <section id="account" class="bg-white py-10">
+    <div class="max-w-2xl mx-auto px-4 text-center">
+      <h3 class="text-2xl font-semibold mb-4">Join Homestead</h3>
+      <p class="text-gray-600 mb-4">Create an account as a viewer or a creator.</p>
+      <a href="#" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">Register</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 Homestead. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
